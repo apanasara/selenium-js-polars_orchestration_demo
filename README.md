@@ -38,6 +38,12 @@ python PowerBI_Service_RPA.py `
 **Output:**  
 - Scraped workspaces and their connection strings, exported as CSV.
 
+> [!WARNING]
+> **Fine-tune Your Timeouts:**  
+> ⏳ Performance of scrolling and scraping depends on your internet connection and PC specs.  
+> If jobs skip data or hang, adjust the `pause` and timeout settings higher for more reliable results.
+
+
 ---
 
 ## 📚 Documentation Outline
