@@ -1,0 +1,62 @@
+
+<tri-workspace-button _ngcontent-ng-c3109230311=""
+class="workspace-list-item tri-flex tri-items-center pinned-workspace ng-star-inserted" _nghost-ng-c2630127106=""
+data-idx="workspace-button-2">
+    <button _ngcontent-ng-c2630127106="" tri-icon-button=""
+    data-testid="workspace-item-btn"
+    class="workspace-button-left tri-rounded tri-text-left tri-flex tri-flex-auto tri-items-center"
+    title="BI Internal Reports">
+        <tri-workspace-icon _ngcontent-ng-c2630127106="" class="workspace-icon tri-mr-1"
+        _nghost-ng-c1372206856=""><!---->
+            <tri-svg-icon _ngcontent-ng-c1372206856="" _nghost-ng-c3179469096=""
+            data-testid="workspace-header-logo-default" class="ng-star-inserted"
+            style="height: 20px; width: 20px;"><!---->
+                <img _ngcontent-ng-c3179469096=""
+                src="https://content.powerapps.com/resource/powerbiwfe/images/artifact-colored-icons.3956afb89ff2d589c246.svg#c_group_workspace_20"
+                alt=""
+                class="ng-star-inserted"><!----><!----><!----><!----><!----><!----><!---->
+            </tri-svg-icon><!----><!----><!----><!---->
+        </tri-workspace-icon>
+        <span _ngcontent-ng-c2630127106="" class="workspace-name workspaceName"> BI Internal Reports </span><!----><!---->
+        <itri-svg-icon _ngcontent-ng-c2630127106="" tri-svg-icon-16="" class="diamond" _nghost-ng-c3179469096="" style="display: none;">
+            <svg _ngcontent-ng-c3179469096="" class="ng-star-inserted">
+                <use _ngcontent-ng-c3179469096="" xlink:href="#"></use>
+            </svg><!----><!----><!----><!----><!----><!----><!----><!---->
+        </tri-svg-icon><!---->
+    </button>
+    <div _ngcontent-ng-c2630127106="" class="workspace-button-right groupContextMenuButton">
+        <button _ngcontent-ng-c2630127106="" tri-button="" appearance="subtle"
+        class="workspace-icon-button ng-star-inserted" data-testid="unpin-button"
+        aria-label="Unpin workspace"><!---->
+            <tri-svg-icon _ngcontent-ng-c2630127106="" _nghost-ng-c3179469096=""
+            class="ng-star-inserted">
+                <svg _ngcontent-ng-c3179469096="" class="ng-star-inserted">
+                    <use _ngcontent-ng-c3179469096="" xlink:href="#pin_off_20_regular"></use>
+                </svg><!----><!----><!----><!----><!----><!----><!----><!---->
+            </tri-svg-icon><!---->
+        </button><!---->
+        <button
+        _ngcontent-ng-c2630127106="" tri-button="" appearance="subtle" aria-haspopup="true"
+        class="workspace-icon-button open-menu openMenu ng-star-inserted" aria-label="More options"
+        data-testid="open-menu">
+            <tri-svg-icon _ngcontent-ng-c2630127106="" _nghost-ng-c3179469096="">
+                <svg _ngcontent-ng-c3179469096="" class="ng-star-inserted">
+                    <use _ngcontent-ng-c3179469096="" xlink:href="#more_horizontal_20_regular"></use>
+                </svg><!----><!----><!----><!----><!----><!----><!----><!---->
+            </tri-svg-icon>
+        </button><!---->
+    </div>
+    <tri-menu _ngcontent-ng-c2630127106="" _nghost-ng-c1322321388=""><!----></tri-menu><!---->
+</tri-workspace-button>
+
+
+getIconName(I) {
+                    switch (I) {
+                    case "PPU":
+                        return "premium_person_20_regular";
+                    case "Fabric":
+                    case "Premium":
+                        return "premium_20_regular";
+                    default:
+                        return ""
+                    }
