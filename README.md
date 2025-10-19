@@ -1,6 +1,7 @@
 # selenium-js-polars_orchestration_demo 🚀🧩✨
 
 **Efficient end-to-end web scraping demonstration leveraging Selenium (Edge) 🕸️, live JavaScript execution 🧑‍💻, and Polars DataFrames 📊 for high-performance extraction. Example target: Power BI Service 🟡. Reusable for other dynamic web data engineering tasks.**
+![banner](https://github.com/user-attachments/assets/bcee30c1-8428-4cc3-8aaf-af5ddb70d088)
 
 ---
 
